@@ -8,9 +8,7 @@ except Exception:
     requests = None
 
 #!/usr/bin/env python3
-"""hellowWorld.py - simple Hello World script.
-
-This file can optionally invoke an OIC (Oracle Integration Cloud) integration
+"""
 using HTTP Basic auth. It reads credentials and endpoint from environment:
   OIC_ENDPOINT, OIC_USERNAME, OIC_PASSWORD
 Use: python hellowWorld.py --invoke-oic '{"key": "value"}'
