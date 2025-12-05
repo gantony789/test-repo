@@ -11,12 +11,12 @@ except Exception:
 """
 using HTTP Basic auth. It reads credentials and endpoint from environment:
   OIC_ENDPOINT, OIC_USERNAME, OIC_PASSWORD
-Use: python hellowWorld.py --invoke-oic '{"key": "value"}'
+Use: python hellowWorld.py --invoke-oic '{"key": "value"}' I have no idea what to say
 """
 
 
 def main(name: str = "world") -> None:
-    print(f"Hello, {name}!")
+    print(f"Hello there {name}!")
 
 
 def invoke_oic(endpoint: str, username: str, password: str, payload: Optional[Any] = None) -> Optional[Any]:
